@@ -1,7 +1,14 @@
 extends layout
 
 block content
-  h2 PowerTable
-  p Projeto de uma mesa interativa com tecnologia de ponta.
+	h2= t('app.sistema.nome') + ' ' + t('app.sistema.versao')
+	p= t('app.index.texto1')
+		ul
+			li
+				a#de(href='/?setLng=pt_BR')= t('app.portugues')
+			li
+				a#de(href='/?setLng=en_US')= t('app.english')
+			li
+				a#de(href='/?setLng=dev')= t('app.dev')
 
-  include home/index
+	include home/index

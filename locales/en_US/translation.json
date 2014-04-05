@@ -1,0 +1,52 @@
+{
+    "app": {
+        "sistema": {
+            "nome": "PowerTable",
+            "versao": "v1.0"
+        },
+        "menu": {
+            "principal": "Home",
+            "vinhos": {
+                "titulo": "Wines",
+                "listar": "List",
+                "cadastrar": "Add"
+            },
+            "relatorios": "Analytic",
+            "configuracoes": {
+                "titulo": "Settings",
+                "dados": "Profile",
+                "cad_tag": "Add TAG",
+                "logout": "Logout"
+            }
+        },
+        "index": {
+            "texto1": "Design of an interactive table with cutting edge technology."
+        },
+        "home": {
+            "table1": {
+                "titulo": "Top 10 most viewed",
+                "th1": "Wine",
+                "th2": "Qty",
+                "th3": "%"
+            },
+            "table2": {
+                "titulo": "Top 10 viewing time",
+                "th1": "Wine",
+                "th2": "Average Time",
+                "th3": "Total"
+            },
+            "table3": {
+                "titulo": "Últimos 10 registered wines",
+                "th1": "Wine",
+                "th2": "Views",
+                "th3": "Average Time",
+                "th4": "Total Ttime",
+                "th5": "Popularity",
+                "th6": "Action"
+            }
+        },
+        "portugues": "português",
+        "english": "english",
+        "dev": "developper"
+    }
+}

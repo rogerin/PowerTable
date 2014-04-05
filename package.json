@@ -11,6 +11,7 @@
     "express": "^3.5.1",
     "jade": "*",
     "express-load": "*",
+    "i18next": "*",
     "nodemon": "*",
     "log": "^1.4.0"
   },

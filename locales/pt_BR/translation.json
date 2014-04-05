@@ -1,0 +1,52 @@
+{
+    "app": {
+        "sistema": {
+            "nome": "PowerTable",
+            "versao": "v1.0"
+        },
+        "menu": {
+            "principal": "Principal",
+            "vinhos": {
+                "titulo": "Vinhos",
+                "listar": "Listar",
+                "cadastrar": "Cadastrar"
+            },
+            "relatorios": "Relatórios",
+            "configuracoes": {
+                "titulo": "Configurações",
+                "dados": "Dados cadastrais",
+                "cad_tag": "Cadastrar TAG",
+                "logout": "Sair"
+            }
+        },
+        "index": {
+            "texto1": "Projeto de uma mesa interativa com tecnologia de ponta."
+        },
+        "home": {
+            "table1": {
+                "titulo": "Top 10 mais vistos",
+                "th1": "Vinho",
+                "th2": "Qnt",
+                "th3": "%"
+            },
+            "table2": {
+                "titulo": "Top 10 tempo de visuzlização",
+                "th1": "Vinho",
+                "th2": "Tempo medio",
+                "th3": "Total"
+            },
+            "table3": {
+                "titulo": "Últimos 10 vinhos cadastrados",
+                "th1": "Vinho",
+                "th2": "Visualizações",
+                "th3": "Tempo Médio",
+                "th4": "Tempo Total",
+                "th5": "Popularidade",
+                "th6": "Ações"
+            }
+        },
+        "portugues": "português",
+        "english": "inglês",
+        "dev": "desenvolvimento"
+    }
+}

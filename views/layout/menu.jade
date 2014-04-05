@@ -1,7 +1,7 @@
 div(class="navbar navbar-default navbar-fixed-top")
 	div(class="container")
 		div(class="navbar-header")
-			a(href="/", class="navbar-brand") PowerTable
+			a(href="/", class="navbar-brand")= t('app.sistema.nome') + ' ' + t('app.sistema.versao')
 			button(class="navbar-toggle", type="button", data-toggle="collapse",data-target="#navbar-main")
 				span(class="icon-bar")
 				span(class="icon-bar")
@@ -9,25 +9,25 @@ div(class="navbar navbar-default navbar-fixed-top")
 		div(class="navbar-collapse collapse", id="navbar-main")
 			ul(class="nav navbar-nav")
 				li(class="dropdown")
-					a(href="/") Principal
+					a(href="/")= t('app.menu.principal') 
 				li(class="dropdown")
-					a(href="#", class="dropdown-toggle", data-toggle="dropdown", id="vinhos") Vinhos 
+					a(href="#", class="dropdown-toggle", data-toggle="dropdown", id="vinhos")= t('app.menu.vinhos.titulo')
 						span(class="caret")
 					ul(class="dropdown-menu", aria-labelledby="vinhos")
 						li
-							a(href="/vinhos") Listar
+							a(href="/vinhos")= t('app.menu.vinhos.listar')
 						li
-							a(href="/vinho/novo") Cadastrar
+							a(href="/vinho/novo")= t('app.menu.vinhos.cadastrar')
 				li(class="dropdown")
-					a(href="#") Relatórios
+					a(href="#")= t('app.menu.relatorios')
 			ul(class="nav navbar-nav navbar-right")
 				li(class="dropdown")
-					a(href="#", class="dropdown-toggle", data-toggle="dropdown", id="vinhos") Configurações 
+					a(href="#", class="dropdown-toggle", data-toggle="dropdown", id="vinhos")= t('app.menu.configuracoes.titulo')
 						span(class="caret")
 					ul(class="dropdown-menu", aria-labelledby="vinhos")
 						li
-							a(href="#") Dados cadastrais
+							a(href="#")= t('app.menu.configuracoes.dados')
 						li
-							a(href="/tags") Cadastrar TAG
+							a(href="/tags")= t('app.menu.configuracoes.cad_tag')
 						li
-							a(href="/logout") Logout
+							a(href="/logout")= t('app.menu.configuracoes.logout')
