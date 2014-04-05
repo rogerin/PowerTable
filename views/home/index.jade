@@ -30,7 +30,7 @@ div(class="row")
 					td 5
 					td 5%
 		div(class="pull-right")
-			a(href="#", class="btn btn-success btn-xs") Lista Completa
+			a(href="#", class="btn btn-success btn-xs")= t('app.lista_completa')
 	div(class="col-lg-6")
 		h3= t('app.home.table2.titulo')
 		table(class="table table-striped")
@@ -61,8 +61,10 @@ div(class="row")
 					td 5m
 					td 2:40:24h
 		div(class="pull-right")
-			a(href="#", class="btn btn-success btn-xs") Lista Completa
+			a(href="#", class="btn btn-success btn-xs")= t('app.lista_completa')
 div(class="row")
 	div(class="col-lg-12")
 		h3= t('app.home.table3.titulo')
 		include ../vinhos/lista
+		div(class="pull-right")
+			a(href="#", class="btn btn-success btn-xs")= t('app.lista_completa')
