@@ -1,15 +1,18 @@
 doctype html
 html
 	head
-		title= t('app.sistema.nome') + ' ' + t('app.sistema.versao') 
+		title= t('app.sistema.nome') + ' ' + t('app.sistema.versao')
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
 		link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
 		link(rel='stylesheet', href='/stylesheets/style.css')
-		script(type='text/javascript', src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
-		script(type='text/javascript', src='/bootstrap/js/bootstrap.min.js')
 	body
 		include layout/menu
 		div(class="container")
 			block content
 		div(class="container")
 			include layout/footer
+		script(type='text/javascript', src='/javascripts/jquery.js')
+		script(type='text/javascript', src='/bootstrap/js/bootstrap.min.js')
+		block javascript
+		
 		

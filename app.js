@@ -23,6 +23,7 @@ var app = express();
 app.use(i18n.handle);
 app.set('views', __dirname + '/views'); //alterado
 app.set('view engine', 'jade');
+//app.use(express.session({secret: 'depois vou gerar um codigo has para protecao da session'}));
 app.use(express.favicon());
 app.use(express.logger('dev'));
 app.use(express.json());
